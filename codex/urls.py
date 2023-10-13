@@ -9,5 +9,5 @@ router.registry.extend(MailViewSet.registry)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('apps.mp3.urls')),
+    path('', include('apps.yu.urls')),
 ]
